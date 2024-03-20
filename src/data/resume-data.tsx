@@ -20,72 +20,86 @@ import {
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
-  name: "Lamjadli Mohamed",
-  initials: "LMJ",
+  name: "Imad El Rhassouli",
+  initials: "IMAD",
   location: "Casablanca, Morocco, MA",
   locationLink: "https://www.google.com/maps/place/Casablanca",
   about:
-    "Artificial Intelligence Engineer and Software Engineer",
+    "Master's student in Accounting, Management Control, Audi",
   summary:
-    "As an Artificial Intelligence Engineer and Data Specialist, specializing in machine learning, deep learning, and business intelligence, I excel in driving projects from inception to completion. ",
-  avatarUrl: "https://i.ibb.co/g9yM3NX/cv-pic.png",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Currently a Master's student in CCA (Accounting, Control, Audit) at Univ Mundiapolis. ",
+  avatarUrl: "https://i.ibb.co/v1xD6vL/Imad.png",
+  personalWebsiteUrl: "",
   contact: {
-    email: "simolamjadli07@gmail.com",
-    tel: "+212632288515",
+    email: "imadelrh2001@gmail.com",
+    tel: "+212650314691",
     social: [
-      {
-        name: "GitHub",
-        url: "https://github.com/Omis715",
-        icon: GitHubIcon,
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/mohamedlmj/",
-        icon: LinkedInIcon,
-      }
+  
+     
     ],
   },
   education: [
     {
-      school: "Ecole National des Sciences Arts et de Métier",
-      degree: "Preparatory Classes",
-      start: "2020",
-      end: "2022",
+      school: "University Mundiapolis",
+      degree: "Master's Degree in Accounting, Management Control, and Audit",
+      start: "2021",
+      end: "",
     },
     {
-      school: "Ecole National des Sciences Arts et de Métier",
-      degree: "Engineer in Artificial Intelligence and Computer Engineering",
-      start: "2022",
-      end: "",
+      school: "Fac Ibn Tofail",
+      degree: "Bachelor's Degree in Management",
+      start: "2020",
+      end: "2021",
+    },
+    {
+      school: "EST Safi",
+      degree: "University Diploma in Finance and Accounting Technology",
+      start: "2018",
+      end: "2020",
+    },
+    {
+      school: "Tarek Ibn Ziad High School",
+      degree: "Baccalauréat in Economics with a specialization in Accounting Management",
+      start: "2017",
+      end: "2018",
     }
+
   ],
   work: [
     {
       company: "Royal Air Maroc",
       link: "https://www.royalairmaroc.com/ma-fr",
       badges: ["Remote"],
-      title: "Developer",
+      title: "Internship",
       logo: ParabolLogo,
-      start: "01.07.23",
-      end: "01.08.23",
+      start: "01.07.19",
+      end: "01.08.19",
       description:
-        "Project management of contract digitization during an observational internship, optimizing processes and enhancing operational efficiency. ",
+        "Performing tasks such as invoice data entry, order tracking, and accounting document entry.",
+    },
+    {
+      company: "Cabinet Salma conseil",
+      link: "",
+      badges: [""],
+      title: "Accounting and Finance Officer",
+      logo: ParabolLogo,
+      start: "01.07.22",
+      end: "01.09.22",
+      description:
+        "Responsible for accounting records, inputting financial documents, handling VAT, CNSS, and income tax declarations, and processing payroll.",
     }
   ],
   skills: [
-    "PowerBI",
-    "Machine Learning",
-    "Unity",
-    "Python",
-    "Java",
-    "AI",
-    "MongoDB",
-    "Oracle",
-    "Android Developement",
-    "React",
-    "Angular",
-    "HTML/CSS/JS"
+    "ArabIc (motherlanguage)",
+    "French (fluent)",
+    "English(intermediate)",
+    "German (beginner)",
+    "Office Suite (Word, Excel, PowerPoint)",
+    "Sage software",
+    "Logique raisonement",
+    "Organisation and planning",
+    "Responsibility and autonomy",
+    "Passionate about numbers and analysis",
   ],
   projects: [
     {
